@@ -11,7 +11,13 @@ En este repositorio recopilo lo que he elaborado durante el curso de Estructuras
 # TDA
 
 ## Lista de Memoria Contigua
-Colección de datos que tienen algo en común, ordenados con un inicio y un fin
+Descripción: 
+Colección de datos que tienen algo en común, ordenados con un inicio y un fin.
+
+Funciones:
+- Aumentar. Aumenta al doble la capacidad de una Lista
+- Agregar. Agrega un elemento al final de la Lista
+- Imprimir. Imprime todos los elementos de la Lista
 
 
 ## Lista Ligada Simple
