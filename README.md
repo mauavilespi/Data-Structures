@@ -6,6 +6,10 @@ En este repositorio recopilo lo que he elaborado durante el curso de Estructuras
 - TDA: Definición
 - TDA: Especificación
 
+2.
+- ¿Cuánta memoria RAM tengo disponible?
+- ¿Cuánto espacio de disco duro puedo ocupar?
+
 ## HackerRank
 - Left Rotation
 - Insert a Node at the Tail of a Linked List
