@@ -23,9 +23,9 @@ Descripción:
 Colección de datos que tienen algo en común, ordenados con un inicio y un fin.
 
 Funciones:
-- Aumentar. Aumenta al doble la capacidad de una Lista
-- Agregar. Agrega un elemento al final de la Lista
-- Imprimir. Imprime todos los elementos de la Lista
+- Aumentar(): Aumenta al doble la capacidad de una Lista
+- Agregar(Lista l1, int dato) -> Lista l2: Agrega un elemento al final de la Lista
+- Imprimir(Lista l1): Imprime todos los elementos de la Lista
 
 
 ## Lista Ligada Simple
