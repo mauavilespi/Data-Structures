@@ -1,3 +1,5 @@
+//Aviles Piña Mauricio
+
 #include "ListaContigua.h"
 
 void aumentar (struct Lista *l1){
@@ -47,3 +49,24 @@ void imprimir (struct Lista *l1){
 }
 }
 
+
+void borrarLista (struct Lista *l1){
+	free(l1);
+}
+
+
+int buscarElemento (struct Lista *l1, int abuscar){
+	int aux=0;
+	for (int *apuntador = l1->datos; apuntador <= l1->fin; apuntador++){
+		if (*(apuntador) == abuscar)
+			aux = 1;
+	}
+	return aux;
+}
+
+
+struct Lista*eliminarElemento (struct Lista *l1, int aeliminar){
+	if (buscarElemento(l1, aeliminar)==0)
+		return l1;
+	
+}
