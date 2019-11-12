@@ -24,8 +24,17 @@ Colección de datos que tienen algo en común, ordenados con un inicio y un fin.
 
 Funciones:
 - Aumentar(): Aumenta al doble la capacidad de una Lista
+
 - Agregar(Lista l1, int dato) -> Lista l2: Agrega un elemento al final de la Lista
+
 - Imprimir(Lista l1): Imprime todos los elementos de la Lista
+
+- borrarLista (Lista l1): Libera el espacio de la Lista
+
+- buscarElemento (Lista l1, int a buscar) -> int : Retorna 1 si el valor se encuentra y 0 si no
+
+- eliminarELemento (Lista l1, int aeliminar) -> Lista l2: Elimina un elemento de la Lista
+
 
 
 ## Lista Ligada Simple

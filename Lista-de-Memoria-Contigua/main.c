@@ -20,11 +20,7 @@ int main(){
 	
 	(buscarElemento (prueba, 15)) ? printf ("SI\n"): printf ("NO\n");
 
-				
-
-
 	borrarLista(prueba);
-
 	
 	return 0;
 }
