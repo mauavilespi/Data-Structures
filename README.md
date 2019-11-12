@@ -31,7 +31,7 @@ Funciones:
 
 - borrarLista (Lista l1): Libera el espacio de la Lista
 
-- buscarElemento (Lista l1, int a buscar) -> int : Retorna 1 si el valor se encuentra y 0 si no
+- buscarElemento (Lista l1, int a buscar) -> int : Retorna la posición del valor si se encuentra, en caso contrario regresa -1
 
 - eliminarELemento (Lista l1, int aeliminar) -> Lista l2: Elimina un elemento de la Lista
 

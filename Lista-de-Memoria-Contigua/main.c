@@ -12,13 +12,17 @@ int main(){
 
 	imprimir (prueba);
 
-	printf ("Se encuentra el elemento 10: ");
+	printf ("Posición elemento 10: %d \n", (buscarElemento (prueba, 10)));
 	
-	(buscarElemento (prueba, 10)) ? printf ("SI\n"): printf ("NO\n");
 
-	printf ("Se encuentra el elemento 15: ");
+	printf ("Posición elemento 15: %d \n", (buscarElemento (prueba, 15)));
 	
-	(buscarElemento (prueba, 15)) ? printf ("SI\n"): printf ("NO\n");
+
+	printf ("Eliminando el 6: \n");
+
+	prueba = eliminarElemento(prueba, 6);
+
+	imprimir(prueba);	
 
 	borrarLista(prueba);
 	
