@@ -56,16 +56,19 @@ void borrarLista (struct Lista *l1){
 
 
 int buscarElemento (struct Lista *l1, int abuscar){
-	int aux = 0;
-	for (int*apuntador = l1->datos; apuntador <= l1->fin; apuntador++){
-		if (*(apuntador)==abuscar)
+	int aux=0;
+	int*apuntador = l1->datos;
+	for (int i=0; i<l1->sig; i++){
+		if(*(apuntador)==abuscar)
 			return aux;
-		else
+		else{
 			aux++;
+			apuntador++;
+		}
 	}
 	return -1;
 }
-
+	
 
 struct Lista*eliminarElemento (struct Lista *l1, int aeliminar){
 	int pos = buscarElemento(l1, aeliminar);
@@ -73,19 +76,15 @@ struct Lista*eliminarElemento (struct Lista *l1, int aeliminar){
 	
 	if (pos==-1)
 		return l1;
-	
-	int *apuntador = l1->datos;
-	
-	for (int i=0; i<pos; i++){
-		nueva = agregar (nueva, *(apuntador));
-		apuntador++;
-		}
-	
-	for (int j=pos+1; j<=(l1->sig); j++){
-			apuntador++;
+
+	else{
+		for (int *apuntador=l1->datos;apuntador<(l1->datos)+pos; apuntador++){
 			nueva = agregar (nueva, *(apuntador));
-			
-		}
-	
+			}
+
+	for (int *apuntador=(l1->datos)+pos+1;apuntador<(l1->datos)+l1->sig;apuntador++){
+			nueva = agregar (nueva, *(apuntador));
+			}
+	}
 	return nueva;
 }
