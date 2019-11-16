@@ -36,7 +36,6 @@ Funciones:
 - eliminarELemento (Lista l1, int aeliminar) -> Lista l2: Elimina un elemento de la Lista
 
 
-
 ## Lista Ligada Simple
 
 ## Lista Ligada Doble

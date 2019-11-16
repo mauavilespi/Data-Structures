@@ -1,4 +1,6 @@
 //Aviles Piña Mauricio
+//Estructuras de Datos
+//1CV9
 
 #include <stdio.h>
 #include <stdlib.h>
